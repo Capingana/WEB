@@ -1,20 +1,24 @@
-// Função dentro de outra função
+// Criando Função dentro de uma função;
+// A principal será a função de multiplicação e dentro teremos uma verificação dos valores
 
-const soma = (...valores) => {
-  //   =========================================
-  //   Função que está dentro da outra função
-  const somador = (val) => {
-    let res = 0;
-
-    for (numero of val) {
-      res += numero;
+const verificador = () => {
+  // ====================================== 1
+  const multiplication = (valueOne, valueTwo) => {
+    if (valueOne == 0 || valueTwo == 0) {
+      return false;
     }
-    return res;
+    return valueOne * valueTwo;
   };
-  
-  return somador(valores);
-
-  // =========================================
+  let mult = multiplication(2, 20);
+  // ====================================== 2
+  const verificando = () => {
+    if (mult == false) {
+      console.log("The result is negative:" + mult);
+    } else {
+      console.log("The result is positive:" + mult);
+    }
+  };
+  return verificando();
 };
-
-console.log(soma(5, 10, 15));
+// ==================================Executando a função principal
+verificador();
