@@ -1,2 +1,5 @@
-let names=['A','E','I','O','U'];
-console.log(names.length);
+let person = ["Sabino", "José", "Pedro", "António"];
+const nomes = person.map((el, pos) => {
+  console.log("Nome:" + el);
+  console.log("Posição: " + pos);
+});
