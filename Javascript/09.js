@@ -1,4 +1,5 @@
 let Person = [
+
   {
     id: 1,
     firstname: "Sabino",
@@ -6,6 +7,7 @@ let Person = [
     age: 23,
     isCompleted: true,
   },
+
   {
     id: 2,
     firstname: "José",
@@ -13,6 +15,7 @@ let Person = [
     age: 3,
     isCompleted: true,
   },
+
   {
     id: 3,
     firstname: "Pedro",
@@ -20,6 +23,7 @@ let Person = [
     age: 2,
     isCompleted: false,
   },
+
   {
     id: 4,
     firstname: "Ana",
@@ -27,14 +31,17 @@ let Person = [
     age: 20,
     isCompleted: true,
   },
+  
 ];
 
 console.log("Alunos aprovados:");
 console.log("===================");
+
+
 let pegandoElementos = Person.map((el, position) => {
   if (el.isCompleted) {
     console.log(el.firstname + " " + el.lastname);
-   
-  } 
+  }
+}
 
-});
+);
