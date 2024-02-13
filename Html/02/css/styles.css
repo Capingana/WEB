@@ -1,51 +1,90 @@
-* {
+*{
   margin: 0%;
   padding: 0%;
 }
-
-body {
-  background-image: url("../img/background002.jpg");
+body{
+  background-image: url("../img/cidadeparallax.png");
   background-repeat: no-repeat;
-  background-size: cover;
   background-attachment: fixed;
+  background-size: cover;
 }
 
-.container {
-  position: relative;
-  width: 100%;
-  height: 500px;
-}
+header >h1{
+  margin: 10px 0px 10px 10px;
 
-#conteudo {
-  position: absolute;
-  background-color: rgb(115, 106, 122);
-  padding: 20px;
-  width: 450px;
-  height: 200px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-input {
-  display: block;
-  padding: 10px;
-  margin: 10px;
-  width: 400px;
-  background-color: rgb(231, 231, 231);
-  border: none;
-}
-
-#btn-entrar {
-  background-color: brown;
-  color: white;
+  color: red;
+  font-size: 1.5em; 
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
+}
+
+.navigation-page{
+ margin-left: 10px;
+}
+.navigation-page a{
+ padding-right: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navigation-page a:hover{
+  text-decoration: underline;
+  color: red;
+}
+/* ================main */
+.section-one{
+  position: relative;
+  height: 600px;
+}
+
+#article-one{
+  padding: 20px;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+main{
+  max-width: 100%;
+  min-width: 320px;
+  margin: auto;
+  padding: 20px;
+}
+#article-one h1{
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#article-one p{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#article-one #contacte-nos{
+  position: absolute;
+  text-align: center;
+  left: 35%;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  font-size: 1em;
+  border: none;
   cursor: pointer;
 }
-#btn-entrar:hover {
-  background-color: rgba(165, 42, 42, 0.74);
-  color: blue;
-  text-decoration: underline;
+#article-one #contacte-nos:hover{
+  background-color: rgba(255, 0, 0, 0.452);
 }
