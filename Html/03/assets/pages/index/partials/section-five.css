@@ -1,0 +1,12 @@
+
+
+#section-five{
+   background-color: beige;
+}
+
+#section-five >p{
+    padding: 20px;
+    min-width: 320px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 27px;
+}

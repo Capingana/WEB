@@ -1,0 +1,12 @@
+.line-footer {
+  padding: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.line-footer > p > a {
+  text-decoration: none;
+  color: purple;
+}

@@ -1,0 +1,18 @@
+#section-two{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.37);
+    line-height: 40px;
+    font-family:'Courier New', Courier, monospace;
+    background-image: url("../../../image/background001.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#section-two >p{
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 20px;
+    min-width: 320px;
+}
+
