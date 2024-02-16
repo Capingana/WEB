@@ -12,6 +12,6 @@
 
 #section-four >p{
     background-color: rgba(54, 52, 40, 0.37);
+    max-width: 550px;
     padding: 20px;
-    max-width: 320px;
 }

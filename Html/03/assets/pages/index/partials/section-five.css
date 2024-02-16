@@ -5,8 +5,9 @@
 }
 
 #section-five >p{
-    padding: 20px;
-    min-width: 320px;
+  
+   max-width: 320px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 27px;
+    line-height: 5vh;
+    padding: 20px;
 }
