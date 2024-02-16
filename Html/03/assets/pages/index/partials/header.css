@@ -1,13 +1,11 @@
 @import url("../../../css/global/global.css");
 .header-cordel{
     background-color: #000;
-    /* font-family: var(--tipo-de-letra-do-titulo); */
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: var(--tipo-de-letra-do-titulo);
     letter-spacing: 2px;
     color: var(--cor-do-titulo);
     text-align: center;
-    font-size: 1.5em;
-    padding: 5px;
+    font-size: 2em;
     max-width: 100%;
     min-width: 320px;
     padding-bottom: 50px;
